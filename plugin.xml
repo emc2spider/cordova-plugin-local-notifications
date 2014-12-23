@@ -88,6 +88,8 @@
 
         <!--This causes Appgyver build service to fail due to duplicate reference
         <lib-file src="libs/android/android-support-v4.jar" />-->
+        
+        <source-file src="src/assets/icon.png" target-dir="res/drawable" />
 
         <source-file src="src/android/LocalNotification.java" target-dir="src/de/appplant/cordova/plugin/localnotification" />
         <source-file src="src/android/Receiver.java"          target-dir="src/de/appplant/cordova/plugin/localnotification" />
